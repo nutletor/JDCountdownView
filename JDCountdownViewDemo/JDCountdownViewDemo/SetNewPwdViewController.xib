@@ -28,11 +28,11 @@
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Boi-yI-g6I" userLabel="Countdown" customClass="JDCountdownView">
-                            <rect key="frame" x="240" y="10" width="120" height="44"/>
+                            <rect key="frame" x="210" y="10" width="150" height="44"/>
                             <animations/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="120" id="mzU-du-dNk"/>
+                                <constraint firstAttribute="width" constant="150" id="mzU-du-dNk"/>
                             </constraints>
                         </view>
                         <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="设置密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wc0-aj-2wC">

@@ -20,7 +20,7 @@
 
 @end
 
-NSTimeInterval const CountdownSeconds = 10;
+NSTimeInterval const CountdownSeconds = 10;//设置倒计时秒数
 
 @implementation JDCountdownView
 
