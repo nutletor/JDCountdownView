@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BBBFE311C1C097B009E6C20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBFE301C1C097B009E6C20 /* main.m */; };
+		2BBBFE341C1C097B009E6C20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBFE331C1C097B009E6C20 /* AppDelegate.m */; };
+		2BBBFE3A1C1C097B009E6C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBBFE381C1C097B009E6C20 /* Main.storyboard */; };
+		2BBBFE3C1C1C097B009E6C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBBFE3B1C1C097B009E6C20 /* Assets.xcassets */; };
+		2BBBFE3F1C1C097B009E6C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBBFE3D1C1C097B009E6C20 /* LaunchScreen.storyboard */; };
+		2BBBFE4A1C1C097B009E6C20 /* JDCountdownViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBFE491C1C097B009E6C20 /* JDCountdownViewDemoTests.m */; };
+		2BBBFE551C1C097B009E6C20 /* JDCountdownViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBFE541C1C097B009E6C20 /* JDCountdownViewDemoUITests.m */; };
+		2BBBFE6D1C1C0AF0009E6C20 /* JDCountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBFE6C1C1C0AF0009E6C20 /* JDCountdownView.m */; settings = {ASSET_TAGS = (); }; };
+		2BBBFE6F1C1C0B06009E6C20 /* JDCountdownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBBFE6E1C1C0B06009E6C20 /* JDCountdownView.xib */; settings = {ASSET_TAGS = (); }; };
+		2BBBFE731C1C1638009E6C20 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBFE711C1C1638009E6C20 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2BBBFE781C1C165B009E6C20 /* FindPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBFE761C1C165B009E6C20 /* FindPwdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2BBBFE791C1C165B009E6C20 /* FindPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBBFE771C1C165B009E6C20 /* FindPwdViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		2BBBFE7D1C1C1676009E6C20 /* SetNewPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBFE7B1C1C1676009E6C20 /* SetNewPwdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2BBBFE7E1C1C1676009E6C20 /* SetNewPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBBFE7C1C1C1676009E6C20 /* SetNewPwdViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		2BCC6C411C1DA926003829CE /* JDCountdownSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC6C401C1DA926003829CE /* JDCountdownSource.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BBBFE461C1C097B009E6C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBBFE241C1C097B009E6C20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBBFE2B1C1C097B009E6C20;
+			remoteInfo = JDCountdownViewDemo;
+		};
+		2BBBFE511C1C097B009E6C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBBFE241C1C097B009E6C20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBBFE2B1C1C097B009E6C20;
+			remoteInfo = JDCountdownViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BBBFE2C1C1C097B009E6C20 /* JDCountdownViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDCountdownViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBBFE301C1C097B009E6C20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BBBFE321C1C097B009E6C20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BBBFE331C1C097B009E6C20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BBBFE391C1C097B009E6C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BBBFE3B1C1C097B009E6C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BBBFE3E1C1C097B009E6C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BBBFE401C1C097B009E6C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBBFE451C1C097B009E6C20 /* JDCountdownViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDCountdownViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBBFE491C1C097B009E6C20 /* JDCountdownViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDCountdownViewDemoTests.m; sourceTree = "<group>"; };
+		2BBBFE4B1C1C097B009E6C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBBFE501C1C097B009E6C20 /* JDCountdownViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDCountdownViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBBFE541C1C097B009E6C20 /* JDCountdownViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDCountdownViewDemoUITests.m; sourceTree = "<group>"; };
+		2BBBFE561C1C097B009E6C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBBFE6B1C1C0AF0009E6C20 /* JDCountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCountdownView.h; sourceTree = "<group>"; };
+		2BBBFE6C1C1C0AF0009E6C20 /* JDCountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCountdownView.m; sourceTree = "<group>"; };
+		2BBBFE6E1C1C0B06009E6C20 /* JDCountdownView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDCountdownView.xib; sourceTree = "<group>"; };
+		2BBBFE701C1C1638009E6C20 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2BBBFE711C1C1638009E6C20 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2BBBFE751C1C165B009E6C20 /* FindPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindPwdViewController.h; sourceTree = "<group>"; };
+		2BBBFE761C1C165B009E6C20 /* FindPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindPwdViewController.m; sourceTree = "<group>"; };
+		2BBBFE771C1C165B009E6C20 /* FindPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindPwdViewController.xib; sourceTree = "<group>"; };
+		2BBBFE7A1C1C1676009E6C20 /* SetNewPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetNewPwdViewController.h; sourceTree = "<group>"; };
+		2BBBFE7B1C1C1676009E6C20 /* SetNewPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetNewPwdViewController.m; sourceTree = "<group>"; };
+		2BBBFE7C1C1C1676009E6C20 /* SetNewPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetNewPwdViewController.xib; sourceTree = "<group>"; };
+		2BCC6C3F1C1DA926003829CE /* JDCountdownSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCountdownSource.h; sourceTree = "<group>"; };
+		2BCC6C401C1DA926003829CE /* JDCountdownSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCountdownSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBBFE291C1C097B009E6C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBBFE421C1C097B009E6C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBBFE4D1C1C097B009E6C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BBBFE231C1C097B009E6C20 = {
+			isa = PBXGroup;
+			children = (
+				2BBBFE2E1C1C097B009E6C20 /* JDCountdownViewDemo */,
+				2BBBFE481C1C097B009E6C20 /* JDCountdownViewDemoTests */,
+				2BBBFE531C1C097B009E6C20 /* JDCountdownViewDemoUITests */,
+				2BBBFE2D1C1C097B009E6C20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BBBFE2D1C1C097B009E6C20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BBBFE2C1C1C097B009E6C20 /* JDCountdownViewDemo.app */,
+				2BBBFE451C1C097B009E6C20 /* JDCountdownViewDemoTests.xctest */,
+				2BBBFE501C1C097B009E6C20 /* JDCountdownViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BBBFE2E1C1C097B009E6C20 /* JDCountdownViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2BBBFE3D1C1C097B009E6C20 /* LaunchScreen.storyboard */,
+				2BBBFE321C1C097B009E6C20 /* AppDelegate.h */,
+				2BBBFE331C1C097B009E6C20 /* AppDelegate.m */,
+				2BBBFE381C1C097B009E6C20 /* Main.storyboard */,
+				2BBBFE701C1C1638009E6C20 /* LoginViewController.h */,
+				2BBBFE711C1C1638009E6C20 /* LoginViewController.m */,
+				2BBBFE751C1C165B009E6C20 /* FindPwdViewController.h */,
+				2BBBFE761C1C165B009E6C20 /* FindPwdViewController.m */,
+				2BBBFE771C1C165B009E6C20 /* FindPwdViewController.xib */,
+				2BBBFE7A1C1C1676009E6C20 /* SetNewPwdViewController.h */,
+				2BBBFE7B1C1C1676009E6C20 /* SetNewPwdViewController.m */,
+				2BBBFE7C1C1C1676009E6C20 /* SetNewPwdViewController.xib */,
+				2BBBFE6A1C1C0AB6009E6C20 /* JDCountdownView */,
+				2BBBFE3B1C1C097B009E6C20 /* Assets.xcassets */,
+				2BBBFE401C1C097B009E6C20 /* Info.plist */,
+				2BBBFE2F1C1C097B009E6C20 /* Supporting Files */,
+			);
+			path = JDCountdownViewDemo;
+			sourceTree = "<group>";
+		};
+		2BBBFE2F1C1C097B009E6C20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BBBFE301C1C097B009E6C20 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BBBFE481C1C097B009E6C20 /* JDCountdownViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBBFE491C1C097B009E6C20 /* JDCountdownViewDemoTests.m */,
+				2BBBFE4B1C1C097B009E6C20 /* Info.plist */,
+			);
+			path = JDCountdownViewDemoTests;
+			sourceTree = "<group>";
+		};
+		2BBBFE531C1C097B009E6C20 /* JDCountdownViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBBFE541C1C097B009E6C20 /* JDCountdownViewDemoUITests.m */,
+				2BBBFE561C1C097B009E6C20 /* Info.plist */,
+			);
+			path = JDCountdownViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		2BBBFE6A1C1C0AB6009E6C20 /* JDCountdownView */ = {
+			isa = PBXGroup;
+			children = (
+				2BBBFE6B1C1C0AF0009E6C20 /* JDCountdownView.h */,
+				2BBBFE6C1C1C0AF0009E6C20 /* JDCountdownView.m */,
+				2BBBFE6E1C1C0B06009E6C20 /* JDCountdownView.xib */,
+				2BCC6C3F1C1DA926003829CE /* JDCountdownSource.h */,
+				2BCC6C401C1DA926003829CE /* JDCountdownSource.m */,
+			);
+			name = JDCountdownView;
+			path = ../../JDCountdownView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BBBFE2B1C1C097B009E6C20 /* JDCountdownViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBBFE591C1C097B009E6C20 /* Build configuration list for PBXNativeTarget "JDCountdownViewDemo" */;
+			buildPhases = (
+				2BBBFE281C1C097B009E6C20 /* Sources */,
+				2BBBFE291C1C097B009E6C20 /* Frameworks */,
+				2BBBFE2A1C1C097B009E6C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDCountdownViewDemo;
+			productName = JDCountdownViewDemo;
+			productReference = 2BBBFE2C1C1C097B009E6C20 /* JDCountdownViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BBBFE441C1C097B009E6C20 /* JDCountdownViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBBFE5C1C1C097B009E6C20 /* Build configuration list for PBXNativeTarget "JDCountdownViewDemoTests" */;
+			buildPhases = (
+				2BBBFE411C1C097B009E6C20 /* Sources */,
+				2BBBFE421C1C097B009E6C20 /* Frameworks */,
+				2BBBFE431C1C097B009E6C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBBFE471C1C097B009E6C20 /* PBXTargetDependency */,
+			);
+			name = JDCountdownViewDemoTests;
+			productName = JDCountdownViewDemoTests;
+			productReference = 2BBBFE451C1C097B009E6C20 /* JDCountdownViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BBBFE4F1C1C097B009E6C20 /* JDCountdownViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBBFE5F1C1C097B009E6C20 /* Build configuration list for PBXNativeTarget "JDCountdownViewDemoUITests" */;
+			buildPhases = (
+				2BBBFE4C1C1C097B009E6C20 /* Sources */,
+				2BBBFE4D1C1C097B009E6C20 /* Frameworks */,
+				2BBBFE4E1C1C097B009E6C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBBFE521C1C097B009E6C20 /* PBXTargetDependency */,
+			);
+			name = JDCountdownViewDemoUITests;
+			productName = JDCountdownViewDemoUITests;
+			productReference = 2BBBFE501C1C097B009E6C20 /* JDCountdownViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BBBFE241C1C097B009E6C20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HuangFei;
+				TargetAttributes = {
+					2BBBFE2B1C1C097B009E6C20 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = D4X9CN9GC7;
+					};
+					2BBBFE441C1C097B009E6C20 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = D4X9CN9GC7;
+						TestTargetID = 2BBBFE2B1C1C097B009E6C20;
+					};
+					2BBBFE4F1C1C097B009E6C20 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = D4X9CN9GC7;
+						TestTargetID = 2BBBFE2B1C1C097B009E6C20;
+					};
+				};
+			};
+			buildConfigurationList = 2BBBFE271C1C097B009E6C20 /* Build configuration list for PBXProject "JDCountdownViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BBBFE231C1C097B009E6C20;
+			productRefGroup = 2BBBFE2D1C1C097B009E6C20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BBBFE2B1C1C097B009E6C20 /* JDCountdownViewDemo */,
+				2BBBFE441C1C097B009E6C20 /* JDCountdownViewDemoTests */,
+				2BBBFE4F1C1C097B009E6C20 /* JDCountdownViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BBBFE2A1C1C097B009E6C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBBFE3F1C1C097B009E6C20 /* LaunchScreen.storyboard in Resources */,
+				2BBBFE3C1C1C097B009E6C20 /* Assets.xcassets in Resources */,
+				2BBBFE6F1C1C0B06009E6C20 /* JDCountdownView.xib in Resources */,
+				2BBBFE7E1C1C1676009E6C20 /* SetNewPwdViewController.xib in Resources */,
+				2BBBFE3A1C1C097B009E6C20 /* Main.storyboard in Resources */,
+				2BBBFE791C1C165B009E6C20 /* FindPwdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBBFE431C1C097B009E6C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBBFE4E1C1C097B009E6C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BBBFE281C1C097B009E6C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCC6C411C1DA926003829CE /* JDCountdownSource.m in Sources */,
+				2BBBFE731C1C1638009E6C20 /* LoginViewController.m in Sources */,
+				2BBBFE341C1C097B009E6C20 /* AppDelegate.m in Sources */,
+				2BBBFE6D1C1C0AF0009E6C20 /* JDCountdownView.m in Sources */,
+				2BBBFE781C1C165B009E6C20 /* FindPwdViewController.m in Sources */,
+				2BBBFE7D1C1C1676009E6C20 /* SetNewPwdViewController.m in Sources */,
+				2BBBFE311C1C097B009E6C20 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBBFE411C1C097B009E6C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBBFE4A1C1C097B009E6C20 /* JDCountdownViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBBFE4C1C1C097B009E6C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBBFE551C1C097B009E6C20 /* JDCountdownViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BBBFE471C1C097B009E6C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBBFE2B1C1C097B009E6C20 /* JDCountdownViewDemo */;
+			targetProxy = 2BBBFE461C1C097B009E6C20 /* PBXContainerItemProxy */;
+		};
+		2BBBFE521C1C097B009E6C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBBFE2B1C1C097B009E6C20 /* JDCountdownViewDemo */;
+			targetProxy = 2BBBFE511C1C097B009E6C20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BBBFE381C1C097B009E6C20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBBFE391C1C097B009E6C20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BBBFE3D1C1C097B009E6C20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBBFE3E1C1C097B009E6C20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BBBFE571C1C097B009E6C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BBBFE581C1C097B009E6C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BBBFE5A1C1C097B009E6C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JDCountdownViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nutletor.com.JDCountdownViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BBBFE5B1C1C097B009E6C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JDCountdownViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nutletor.com.JDCountdownViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BBBFE5D1C1C097B009E6C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JDCountdownViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nutletor.com.JDCountdownViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDCountdownViewDemo.app/JDCountdownViewDemo";
+			};
+			name = Debug;
+		};
+		2BBBFE5E1C1C097B009E6C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JDCountdownViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nutletor.com.JDCountdownViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDCountdownViewDemo.app/JDCountdownViewDemo";
+			};
+			name = Release;
+		};
+		2BBBFE601C1C097B009E6C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JDCountdownViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nutletor.com.JDCountdownViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JDCountdownViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2BBBFE611C1C097B009E6C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JDCountdownViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nutletor.com.JDCountdownViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JDCountdownViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BBBFE271C1C097B009E6C20 /* Build configuration list for PBXProject "JDCountdownViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBBFE571C1C097B009E6C20 /* Debug */,
+				2BBBFE581C1C097B009E6C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBBFE591C1C097B009E6C20 /* Build configuration list for PBXNativeTarget "JDCountdownViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBBFE5A1C1C097B009E6C20 /* Debug */,
+				2BBBFE5B1C1C097B009E6C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBBFE5C1C1C097B009E6C20 /* Build configuration list for PBXNativeTarget "JDCountdownViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBBFE5D1C1C097B009E6C20 /* Debug */,
+				2BBBFE5E1C1C097B009E6C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBBFE5F1C1C097B009E6C20 /* Build configuration list for PBXNativeTarget "JDCountdownViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBBFE601C1C097B009E6C20 /* Debug */,
+				2BBBFE611C1C097B009E6C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BBBFE241C1C097B009E6C20 /* Project object */;
+}
