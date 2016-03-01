@@ -86,7 +86,7 @@ NSTimeInterval const CountdownSeconds = 10;//设置倒计时秒数
 - (void)countdownTimerAction
 {
     if (_leftSeconds > 0) {
-        self.mainTextLabel.text = [NSString stringWithFormat:@"重发验证码(%lds)", _leftSeconds];
+        self.mainTextLabel.text = [NSString stringWithFormat:@"重新获取(%lds)", _leftSeconds];
     } else {
         [self stopCountdown];
     }
